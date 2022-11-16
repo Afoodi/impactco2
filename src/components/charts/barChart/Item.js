@@ -50,14 +50,17 @@ export default function Item(props) {
             value={props.gmargin}
             size={props.gmargin == "marge brut" ? 90 : props.gmargin ** 16 / 50}
             max={props.gmargin == "marge brut" ? 100 : 100 ** 14.2}
+            usage={(props.gmargin <= 70 ? 5 : null)}
+            usageColor="#E73535"
             color="#4EB3EA"
           />
         }
         <Bar
           value={props.value}
-          usage={props.usage}
+          usage={(props.category > 11 && props.value > 1 ? props.value / 3 : props.usage)}
           max={props.max}
           color={(props.category > 11 ? "#C1D973" : props.color)}
+          usageColor={(props.category > 11 ? "#E73535" : props.color)}
         />
       </ChartWrapper>
     </Wrapper>
