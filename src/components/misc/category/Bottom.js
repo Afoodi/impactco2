@@ -29,11 +29,9 @@ export default function Bottom(props) {
         émis {props.category?.include}
       </Disclaimer>
       <Button
-        className={'noscreenshot'}
-        to={props.iframe ? 'https://impactco2.fr' : '/'}
-        hollow
+        to={props.iframe ? 'https://impactco2.fr' : '/categories'}
       >
-        Voir toutes les catégories
+        {props.iframe ? <>Voir</> : <>Comparer</>} toutes les assiettes
       </Button>
     </Wrapper>
   )
