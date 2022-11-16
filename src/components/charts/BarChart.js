@@ -22,6 +22,9 @@ export default function BarChart(props) {
             color={item.color}
             value={item.value}
             usage={item.usage}
+            gmargin={item.gmargin}
+            category={item.category}
+            price={item.price}
             component={item.component}
             max={props.max}
           />
