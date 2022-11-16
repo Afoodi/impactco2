@@ -29,7 +29,7 @@
     },
     "end": 0.63563578618721,
     "default": true,
-    "tile": true,
+    "tile": false,
     "meta": {
       "title": "L'empreinte carbone de votre jean",
       "description": "Découvrez la quantité de CO₂e émis pour fabriquer et distribuer votre jean grâce à Impact CO2."
@@ -104,7 +104,7 @@
     },
     "end": 0.250404099863735,
     "default": true,
-    "tile": true,
+    "tile": false,
     "meta": {
       "title": "Empreinte carbone d'un T-shirt en coton",
       "description": "Quelle est l'empreinte carbone pour la fabrication d'un T-shirt en coton ? Maintenant grâce à Impact CO2, vous allez pouvoir le savoir !"

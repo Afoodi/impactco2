@@ -43,7 +43,7 @@
       }
     ],
     "default": true,
-    "tile": true,
+    "tile": false,
     "source": "https://agribalyse.ademe.fr/app/aliments/18430#Eau_embouteill%C3%A9e_de_source",
     "meta": {
       "title": "Poids CO₂e d'un litre d'eau en bouteille",

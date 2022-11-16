@@ -8,7 +8,7 @@
     "category": 2,
     "total": 7.26,
     "default": true,
-    "tile": true,
+    "tile": false,
     "meta": {
       "title": "Impact climat d'un repas avec du boeuf",
       "description": "Un repas avec du boeuf a un impact important sur le climat. Mesurez votre impact en découvrant la valeur en CO₂e de votre repas"
@@ -24,7 +24,7 @@
     "category": 2,
     "total": 0.51,
     "default": true,
-    "tile": true,
+    "tile": false,
     "meta": {
       "title": "Impact climat d'un repas végétarien",
       "description": "Un repas avec du boeuf, un repas avec du poulet, ou un repas végétarien aura un impact différent sur le climat. Quel est l'impact d'un repas végétarien ?"

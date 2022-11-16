@@ -78,7 +78,7 @@
       }
     ],
     "default": true,
-    "tile": false,
+    "tile": true,
     "display": {
       "min": 400
     },
@@ -109,7 +109,7 @@
       }
     ],
     "default": true,
-    "tile": true,
+    "tile": false,
     "display": {
       "min": 150
     },
