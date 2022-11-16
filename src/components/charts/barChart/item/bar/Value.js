@@ -34,7 +34,7 @@ export default function Value(props) {
   return (
     <Wrapper
       noBar={props.value / props.max === 0}
-      inside={props.value / props.max > 0.7}
+      inside={props.value / (props.max > 1000 ? 100 : props.max) > 0.5 || props.value == "marge brut"}
     >
       <Number>{formatNumber(props.value)}</Number>
       <Unit>
