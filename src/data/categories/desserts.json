@@ -1,0 +1,92 @@
+[
+  {
+    "id": 140000,
+    "name": "Cheese cake",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "cheesecake",
+    "emoji": "🍰",
+    "gmargin": 68,
+    "category": 14,
+    "total": 0.764,
+    "price": 7.5,
+    "default": true,
+    "tile": false,
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/624",
+    "meta": {
+      "title": "Impact climat d'un cheese cake",
+      "description": "Découvrez l'impact climat d'un cheese cake et comparez-le au % de marge brut."
+    }
+  },
+  {
+    "id": 140001,
+    "name": "Île flottante",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "ileflottante",
+    "emoji": "🍧",
+    "gmargin": 75,
+    "category": 14,
+    "total": 0.269,
+    "price": 6.5,
+    "default": true,
+    "tile": true,
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469",
+    "meta": {
+      "title": "Impact climat d'une île flottante",
+      "description": "Découvrez l'impact climat d'une île flottante et comparez-la au % de marge brut."
+    }
+  },
+  {
+    "id": 140002,
+    "name": "Fondant au chocolat",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "fondant",
+    "emoji": "🍪",
+    "gmargin": 74,
+    "category": 14,
+    "total": 0.283,
+    "price": 7.5,
+    "default": true,
+    "tile": false,
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469",
+    "meta": {
+      "title": "Impact climat d'un fondant au chocolat",
+      "description": "Découvrez l'impact climat d'un fondant au chocolat et comparez-le au % de marge brut."
+    }
+  },
+  {
+    "id": 140003,
+    "name": "Tarte aux pommes",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "tartepommes",
+    "emoji": "🥧",
+    "gmargin": 72,
+    "category": 14,
+    "total": 0.283,
+    "price": 7,
+    "default": true,
+    "tile": false,
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469",
+    "meta": {
+      "title": "Impact climat d'une tarte aux pommes",
+      "description": "Découvrez l'impact climat d'une tarte aux pommes et comparez-la au % de marge brut."
+    }
+  },
+  {
+    "id": 140004,
+    "name": "Tarte aux fraises hors saison",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "tartefraises",
+    "emoji": "🍓",
+    "gmargin": 70,
+    "category": 14,
+    "total": 0.579,
+    "price": 8,
+    "default": true,
+    "tile": true,
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469",
+    "meta": {
+      "title": "Impact climat d'une tarte aux fraises de saison",
+      "description": "Découvrez l'impact climat d'une tarte aux fraises de saison et comparez-la au % de marge brut."
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 130000,
+    "name": "Curry de poulet, riz basmati",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "currypoulet",
+    "emoji": "🍛",
+    "gmargin": 74,
+    "category": 13,
+    "total": 1.19,
+    "price": 13,
+    "default": true,
+    "tile": false,
+    "meta": {
+      "title": "Impact climat d'un curry de poulet",
+      "description": "Découvrez l'impact climat d'un curry de poulet et comparez-le au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 130001,
+    "name": "Filet mignon de porc, pommes sautées",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "filetporc",
+    "emoji": "🐖",
+    "gmargin": 73,
+    "category": 13,
+    "total": 0.965,
+    "price": 14,
+    "default": true,
+    "tile": true,
+    "meta": {
+      "title": "Impact climat d'un filet mignon de porc",
+      "description": "Découvrez l'impact climat d'un filet mignon de porc et comparez-le au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 130002,
+    "name": "Hamburger et frites maison",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "hamburger",
+    "emoji": "🍔",
+    "gmargin": 70,
+    "category": 13,
+    "total": 4.06,
+    "price": 15,
+    "default": true,
+    "tile": true,
+    "meta": {
+      "title": "Impact climat d'un hamburger",
+      "description": "Découvrez l'impact climat d'un hamburger et comparez-le au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 130003,
+    "name": "Brandade de morue",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "morue",
+    "emoji": "🐠",
+    "gmargin": 72,
+    "category": 13,
+    "total": 1.43,
+    "price": 14,
+    "default": true,
+    "tile": false,
+    "meta": {
+      "title": "Impact climat d'une brandade de morue",
+      "description": "Découvrez l'impact climat d'une brandade de morue et comparez-la au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 130004,
+    "name": "Beignets de légumes, couscous",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "beignetslegumes",
+    "emoji": "🧆",
+    "gmargin": 75,
+    "category": 13,
+    "total": 0.26,
+    "price": 12,
+    "default": true,
+    "tile": false,
+    "meta": {
+      "title": "Impact climat des beignets de légumes avec couscous",
+      "description": "Découvrez l'impact climat des beignets de légumes et comparez-les au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element?recherche=repas"
+  }
+]

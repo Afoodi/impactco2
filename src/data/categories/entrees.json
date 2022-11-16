@@ -1,0 +1,92 @@
+[
+  {
+    "id": 120000,
+    "name": "Salade de tomates mozzarella, et basilic",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "saladetomates",
+    "emoji": "🍅",
+    "gmargin": 74,
+    "category": 12,
+    "total": 0.366,
+    "price": 9,
+    "default": true,
+    "tile": true,
+    "meta": {
+      "title": "Impact climat d'une salade de tomates mozzarella",
+      "description": "Découvrez l'impact climat d'une salade de tomates mozzarella et comparez-la au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 120001,
+    "name": "Tartare de boeuf (entrée)",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "tartare",
+    "emoji": "🥩",
+    "gmargin": 68,
+    "category": 12,
+    "total": 6.03,
+    "price": 9,
+    "default": true,
+    "tile": true,
+    "meta": {
+      "title": "Impact climat d'un tartare de boeuf",
+      "description": "Découvrez l'impact climat d'un tartare de boeuf et comparez-le au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 120002,
+    "name": "Soupe à l'oignon",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "soupe",
+    "emoji": "🧅",
+    "gmargin": 72,
+    "category": 12,
+    "total": 0.552,
+    "price": 7,
+    "default": true,
+    "tile": false,
+    "meta": {
+      "title": "Impact climat d'une soupe à l'oignon",
+      "description": "Découvrez l'impact climat d'une soupe à l'oignon et comparez-la au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 120003,
+    "name": "Tartare de thon rouge, vinaigrette épicée",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "thonrouge",
+    "emoji": "🐟",
+    "gmargin": 68,
+    "category": 12,
+    "total": 0.796,
+    "price": 11,
+    "default": true,
+    "tile": false,
+    "meta": {
+      "title": "Impact climat d'un tartare de thon rouge",
+      "description": "Découvrez l'impact climat d'un tartare de thon rouge et comparez-le au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/469"
+  },
+  {
+    "id": 120004,
+    "name": "Avocado toast au pain de campagne",
+    "synonyms": ["manger", "alimenter"],
+    "slug": "avotoast",
+    "emoji": "🥑",
+    "gmargin": 69,
+    "category": 12,
+    "total": 1.013,
+    "price": 9.5,
+    "default": true,
+    "tile": false,
+    "meta": {
+      "title": "Impact climat d'un avocado toast",
+      "description": "Découvrez l'impact climat d'un avocado toast et comparez-le au % de marge brut."
+    },
+    "source": "https://bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/categorie/482"
+  }
+]
