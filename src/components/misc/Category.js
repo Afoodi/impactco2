@@ -103,7 +103,7 @@ export default function CategoryList(props) {
                   equivalentsOfCategory[equivalentsOfCategory.length - 1]?.value
                 }
               />
-              {![2, 3].includes(props.category.id) && <CategoryLegend />}
+              {![2, 3, 12, 13, 14].includes(props.category.id) && <CategoryLegend />}
             </>
           )}
           <Bottom category={props.category} />
