@@ -59,7 +59,7 @@ export default function Tiles(props) {
     }
   }, [tiles, equivalents, setTiles])
 
-  const [weight, setWeight] = useState(2000)
+  const [weight, setWeight] = useState(3)
   useEffect(() => {
     curEquivalent && setWeight(formatTotalByMultiplier(curEquivalent))
   }, [curEquivalent])
