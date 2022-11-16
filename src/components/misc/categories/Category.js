@@ -46,12 +46,15 @@ const StyledButton = styled(Button)`
   }
 `
 export default function Category(props) {
+  const handleClick = (myLink) => () => {
+    window.location.href=myLink;
+  }
   return (
-    <Wrapper>
+    <Wrapper onClick={handleClick(`/${props.category.slug}`)}>
       <StyledEmoji>{props.category.emoji}</StyledEmoji>
       <Title>{props.category.name}</Title>
-
-      <StyledButton to={`/${props.category.slug}`}>Visualiser</StyledButton>
+      
+      <StyledButton>Visualiser</StyledButton>
     </Wrapper>
   )
 }
