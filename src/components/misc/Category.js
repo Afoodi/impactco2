@@ -34,6 +34,9 @@ export default function CategoryList(props) {
           unit: equivalent.unit,
           value: formatTotal(equivalent),
           usage: formatUsage(equivalent),
+          gmargin: equivalent.gmargin,
+          category: equivalent.category,
+          price: equivalent.price,
           to: `/${
             categories.find((category) => category.id === equivalent.category)
               .slug
