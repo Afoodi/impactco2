@@ -171,5 +171,53 @@
       "title": "",
       "description": ""
     }
+  },
+  {
+    "id": 12,
+    "name": "Entrées",
+    "emoji": "🍲",
+    "slug": "entrees",
+    "title": "LES ENTRÉES",
+    "description": "Visualisez la marge et l’impact CO2 de vos assiettes.",
+    "divider": 1,
+    "display": true,
+    "unit": "assiette",
+    "include": "par assiette comprenant la fabrication, la distribution et la consommation.",
+    "meta": {
+      "title": "Empreinte carbone et la marge des entrées",
+      "description": "Entrées végétarien, avec du boeuf, avec du poulet, avec du poisson... Découvrez leur valeur en CO₂e et leur marge brut"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Plats",
+    "emoji": "🍝",
+    "slug": "plats",
+    "title": "LES PLATS",
+    "description": "Visualisez la marge et l’impact CO2 de vos assiettes.",
+    "divider": 1,
+    "display": true,
+    "unit": "assiette",
+    "include": "par assiette comprenant la fabrication, la distribution et la consommation.",
+    "meta": {
+      "title": "Empreinte carbone et la marge des plats",
+      "description": "Plats végétarien, avec du boeuf, avec du poulet, avec du poisson... Découvrez leur valeur en CO₂e et leur marge brut"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Desserts",
+    "emoji": "🍮",
+    "slug": "desserts",
+    "title": "LES DESSERTS",
+    "description": "Visualisez la marge et l’impact CO2 de vos assiettes.",
+    "divider": 1,
+    "display": true,
+    "unit": "assiette",
+    "include": "par assiette comprenant la fabrication, la distribution et la consommation",
+    "meta": {
+      "title": "Empreinte carbone et la marge des desserts",
+      "description": "Les desserts... Découvrez leur valeur en CO₂e et leur marge brut"
+    }
   }
 ]
