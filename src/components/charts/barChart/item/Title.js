@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 `
 const Title = styled.div`
   position: relative;
-  font-size: 0.875rem;
+  font-size: 1.575rem;
   color: ${(props) => props.theme.colors.text};
 
   ${(props) => props.theme.mq.small} {
