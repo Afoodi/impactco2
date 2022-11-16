@@ -38,7 +38,7 @@ export default function BarChart(props) {
             secondEmoji={item.secondEmoji}
             color={item.color}
             value={item.value}
-            usage={item.usage}
+            usage={props.items[0].category > 11 ? "" : item.usage}
             gmargin={item.gmargin}
             category={item.category}
             price={item.price}
