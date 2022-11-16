@@ -25,6 +25,7 @@ export default function TitleComponent(props) {
       <Title>
         {props.title}
         {props.subtitle && <Subtitle> {props.subtitle}</Subtitle>}
+        {props.price && <span>&nbsp; | <small>{props.price} €</small></span>}
       </Title>
       {props.component}
     </Wrapper>

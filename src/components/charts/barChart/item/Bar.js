@@ -33,7 +33,7 @@ export default function Bar(props) {
           <Usage percent={props.usage / props.value} color={props.usageColor || props.color} />
         )}
       </Container>
-      <Value value={(props.value || "émissions")} max={props.max} />
+      <Value value={(props.value || "émissions")} max={props.max} price={props.price} />
     </Wrapper>
   )
 }

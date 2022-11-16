@@ -44,6 +44,7 @@ export default function Item(props) {
           title={props.title}
           subtitle={props.subtitle}
           component={props.component}
+          price={props.price}
         />
         {props.category > 11 &&
           <Bar
