@@ -23,7 +23,7 @@ export default function Menu() {
   return (
     <Wrapper>
       <Dropdown
-        label={'Catégories'}
+        label={'Menu'}
         current={categories.find((category) => slugs.includes(category.slug))}
       >
         {categories

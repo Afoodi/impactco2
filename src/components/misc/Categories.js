@@ -34,7 +34,7 @@ export default function Categories(props) {
       {props.main && (
         <Section>
           <Section.Content flex>
-            <Title>Catégories</Title>
+            <Title>MENU DE BISTROT</Title>
             <ShareButton title />
           </Section.Content>
         </Section>
@@ -43,8 +43,8 @@ export default function Categories(props) {
         <Section.Content>
           {props.main ? (
             <Text main>
-              Selectionnez une catégorie pour visualiser facilement l’empreinte
-              carbone des objets et gestes de votre quotidien.
+              Découvrez maintenant pourquoi une assiette à
+              faible impact CO2 à aussi une forte marge!
             </Text>
           ) : (
             <Text>Vous pouvez aussi naviguer par catégorie :</Text>
