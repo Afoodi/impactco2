@@ -58,6 +58,7 @@ export default function Item(props) {
         <Bar
           value={props.value}
           usage={(props.category > 11 && props.value > 1 ? props.value / 3 : props.usage)}
+          size={props.value == 0 ? 40 : null}
           max={props.max}
           color={(props.category > 11 ? "#C1D973" : props.color)}
           usageColor={(props.category > 11 ? "#E73535" : props.color)}
