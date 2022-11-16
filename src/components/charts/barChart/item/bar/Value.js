@@ -37,11 +37,18 @@ export default function Value(props) {
       inside={props.value / (props.max > 1000 ? 100 : props.max) > 0.5 || props.value == "marge brut"}
     >
       <Number>{formatNumber(props.value)}</Number>
-      <Unit>
-        {' '}
-        kg CO
-        <sub>2</sub>e
-      </Unit>
+      {props.max > 1000 || props.value == "marge brut" ? (
+          <Unit>
+            {' '}
+            %
+          </Unit>
+        ) : (
+          <Unit>
+            {' '}
+            kg CO
+            <sub>2</sub>e
+          </Unit>
+      )}
     </Wrapper>
   )
 }
