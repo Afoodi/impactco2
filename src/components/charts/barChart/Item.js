@@ -48,7 +48,8 @@ export default function Item(props) {
         {props.category > 11 &&
           <Bar
             value={props.gmargin}
-            max={props.usage}
+            size={props.gmargin == "marge brut" ? 90 : props.gmargin ** 16 / 50}
+            max={props.gmargin == "marge brut" ? 100 : 100 ** 14.2}
             color="#4EB3EA"
           />
         }
