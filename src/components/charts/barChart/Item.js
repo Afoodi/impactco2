@@ -45,11 +45,18 @@ export default function Item(props) {
           subtitle={props.subtitle}
           component={props.component}
         />
+        {props.category > 11 &&
+          <Bar
+            value={props.gmargin}
+            max={props.usage}
+            color="#4EB3EA"
+          />
+        }
         <Bar
           value={props.value}
           usage={props.usage}
           max={props.max}
-          color={props.color}
+          color={(props.category > 11 ? "#C1D973" : props.color)}
         />
       </ChartWrapper>
     </Wrapper>
