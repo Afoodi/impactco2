@@ -27,7 +27,7 @@ const Usage = styled.div`
 `
 export default function Bar(props) {
   return (
-    <Wrapper percent={(props.size || props.value) / props.max}>
+    <Wrapper percent={props.size}>
       <Container color={props.color}>
         {props.usage && (
           <Usage percent={props.usage / props.value} color={props.usageColor || props.color} />
