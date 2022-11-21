@@ -49,8 +49,9 @@ export default function Category(props) {
   const handleClick = (myLink) => () => {
     window.location.href=myLink;
   }
+  const path = props.iframe ? "/iframes" : ""
   return (
-    <Wrapper onClick={handleClick(`/${props.category.slug}`)}>
+    <Wrapper onClick={handleClick(`${path}/${props.category.slug}`)}>
       <StyledEmoji>{props.category.emoji}</StyledEmoji>
       <Title>{props.category.name}</Title>
       

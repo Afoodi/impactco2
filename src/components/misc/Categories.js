@@ -53,7 +53,7 @@ export default function Categories(props) {
             {categories
               .filter((category) => category.display)
               .map((category) => (
-                <Category key={category.slug} category={category} />
+                <Category key={category.slug} category={category} iframe={props.iframe}/>
               ))}
           </List>
         </Section.Content>
