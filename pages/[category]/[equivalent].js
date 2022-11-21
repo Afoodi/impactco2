@@ -1,16 +1,5 @@
 import React from 'react'
 
-import boisson from 'data/categories/boisson.json'
-import deplacement from 'data/categories/deplacement.json'
-import electromenager from 'data/categories/electromenager.json'
-import habillement from 'data/categories/habillement.json'
-import mobilier from 'data/categories/mobilier.json'
-import numerique from 'data/categories/numerique.json'
-import usagenumerique from 'data/categories/usagenumerique.json'
-import repas from 'data/categories/repas.json'
-import chauffage from 'data/categories/chauffage.json'
-import fruitsetlegumes from 'data/categories/fruitsetlegumes.json'
-import divers from 'data/categories/divers.json'
 import entrees from 'data/categories/entrees.json'
 import plats from 'data/categories/plats.json'
 import desserts from 'data/categories/desserts.json'
@@ -23,17 +12,6 @@ import Ecv from 'components/views/equivalent/Ecv'
 import Text from 'components/views/equivalent/Text'
 
 const equivalents = [
-  ...boisson,
-  ...deplacement,
-  ...electromenager,
-  ...habillement,
-  ...mobilier,
-  ...numerique,
-  ...usagenumerique,
-  ...repas,
-  ...chauffage,
-  ...fruitsetlegumes,
-  ...divers,
   ...entrees,
   ...plats,
   ...desserts,
