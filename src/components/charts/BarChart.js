@@ -13,7 +13,7 @@ export default function BarChart(props) {
         <Item
           key=""
           title="GUIDE"
-          to="."
+          to=" "
           subtitle=""
           emoji="📏"
           secondEmoji=""
