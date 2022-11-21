@@ -109,9 +109,7 @@ export default function CategoryList(props) {
               {![2, 3, 12, 13, 14].includes(props.category.id) && <CategoryLegend />}
             </>
           )}
-          <Bottom category={props.category} />
-          <Learning category={props.category} />
-          <Contact />
+          <Bottom category={props.category} iframe={props.iframe}/>
         </Wrapper>
       </Section.Content>
     </Section>

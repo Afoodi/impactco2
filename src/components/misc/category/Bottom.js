@@ -29,7 +29,7 @@ export default function Bottom(props) {
         émis {props.category?.include}
       </Disclaimer>
       <Button
-        to={props.iframe ? 'https://impactco2.fr' : '/categories'}
+        to={props.iframe ? '/iframes/menu' : '/categories'}
       >
         {props.iframe ? <>Voir</> : <>Comparer</>} toutes les assiettes
       </Button>
