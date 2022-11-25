@@ -9,23 +9,6 @@ export default function BarChart(props) {
       className={props.className}
       flipKey={props.items.map((item) => item.id).join()}
     >
-      {props.items[0].category > 11 &&
-        <Item
-          key=""
-          title="GUIDE"
-          to=" "
-          subtitle=""
-          emoji="📏"
-          secondEmoji=""
-          color=""
-          value=""
-          gmargin="marge brut"
-          category="15"
-          price="prix"
-          usage=""
-          max="100"
-        />
-      }
       {props.items.map((item) => (
         <Flipped flipId={item.id} key={item.id}>
           <Item
