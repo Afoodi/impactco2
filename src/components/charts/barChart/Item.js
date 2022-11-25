@@ -31,9 +31,8 @@ const ChartWrapper = styled.div`
 `
 export default function Item(props) {
   const iframe = useIframe()
-  const marginBarSize = (props.gmargin == "marge brut" ? 0.9 : props.gmargin ** 16 / 100 ** 15)
-  const ecoBarSize = (props.value == 0 ? 0.8 : 0.25 / props.value)
-  const colours = { "blue": "#4EB3EA", "red": "#FF6F59", "darkgreen": "#254441", "green": "#43AA8B" }
+  const marginBarSize = (props.gmargin == "marge brut" ? 0.9 : props.gmargin ** 10 / 100 ** 9.4)
+  const ecoBarSize = (props.value == 0 ? 0.8 : 0.6 ** 3 / props.value + 0.08)
   return (
     <Wrapper
       {...props}
