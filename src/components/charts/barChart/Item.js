@@ -44,7 +44,7 @@ export default function Item(props) {
   return (
     <Wrapper
       {...props}
-      to={(iframe ? '/' : '') + props.to}
+      to={(iframe ? '/iframes' : '') + props.to}
       onClick={props.onClick || null}
       noIcon
     >
