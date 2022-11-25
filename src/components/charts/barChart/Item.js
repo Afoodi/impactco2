@@ -33,6 +33,14 @@ export default function Item(props) {
   const iframe = useIframe()
   const marginBarSize = (props.gmargin == "marge brut" ? 0.9 : props.gmargin ** 10 / 100 ** 9.4)
   const ecoBarSize = (props.value == 0 ? 0.8 : 0.6 ** 3 / props.value + 0.08)
+  const colours = { 
+    "blue": "#4EB3EA",
+    "red": "#FF6F59",
+    "orange": "#FF8E72",
+    "darkgreen": "#254441",
+    "green": "#43AA8B",
+    "lightgreen": "#377771",
+  }
   return (
     <Wrapper
       {...props}
@@ -53,17 +61,15 @@ export default function Item(props) {
             value={props.gmargin}
             size={marginBarSize}
             max={1001}
-            usage={(props.gmargin <= 70 ? 5 : null)}
             usageColor={colours.red}
-            color={colours.darkgreen}
+            color={(props.gmargin < 73 ? colours.red : colours.lightgreen)}
           />
         }
         <Bar
           value={props.value}
-          usage={(props.category > 11 && props.value > 1 ? props.value / 2 : props.usage)}
           size={ecoBarSize}
           max={props.max}
-          color={(props.category > 11 ? colours.green : props.color)}
+          color={(props.value >= 1.2 ? colours.orange : colours.green)}
           usageColor={(props.category > 11 ? colours.red : props.color)}
         />
       </ChartWrapper>
