@@ -68,6 +68,11 @@ export default function Value(props) {
                 <>/ {props.equivalent.unit || props.category.unit}</>
               )}
             </Unit>
+            &emsp;&emsp;&emsp;
+            <Number>{formatNumber(props.equivalent.gmargin)}</Number>{' '}
+            <Unit>
+            % de <Big>marge brut</Big>
+            </Unit>
           </div>
         </Top>
         <StyledEmoji>{props.equivalent.emoji}</StyledEmoji>
