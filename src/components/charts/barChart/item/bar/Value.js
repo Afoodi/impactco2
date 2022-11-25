@@ -40,7 +40,7 @@ export default function Value(props) {
       {props.max > 1000 || props.value == "marge brut" ? (
           <Unit>
             {' '}
-            %
+            % de marge brut 
           </Unit>
         ) : (
           <Unit>
