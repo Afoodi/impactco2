@@ -14,6 +14,13 @@ import PoissonGras from './PoissonGras'
 import PoissonBlanc from './PoissonBlanc'
 import Vegetalien from './Vegetalien'
 
+import Tartare from './Tartare'
+import Thon from './Thon'
+import Hamburger from './Hamburger'
+import Morue from './Morue'
+import Tarte from './Tarte'
+import Curry from './Curry'
+
 import Eau from './Eau'
 import Lait from './Lait'
 
@@ -46,6 +53,32 @@ const visualizations = {
   imprimantejetdencre: [<ImprimanteCategory key='ImprimanteCategory' />],
   consoledesalon: [<ConsoleSalonCategory key='ConsoleSalonCategory' />],
   ordinateurfixe: [<OrdinateurFixeCategory key='OrdinateurFixeCategory' />],
+  
+  tartare: [
+    <Tartare key='Tartare' />,
+    <Curry key='Curry' />
+  ],
+  currypoulet: [<Curry key='Curry' />],
+  avotoast: [<Tartare key='Tartare' />],
+  soupe: [<Tartare key='Tartare' />],
+  thonrouge: [<Thon key='Thon' />],
+  saladetomates: [<Thon key='Thon' />],
+  beignetslegumes: [
+    <Thon key='Thon' />, 
+    <Morue key='Morue' />
+  ],
+  fondant: [
+    <Morue key='Morue' />, 
+    <Curry key='Curry' />
+  ],
+  morue: [<Morue key='Morue' />],
+  hamburger: [<Hamburger key='Hamburger' />],
+  filetporc: [<Hamburger key='Hamburger' />],
+  ileflottante: [<Tarte key='Tarte' />],
+  cheesecake: [<Tarte key='Tarte' />],
+  tartefraises: [<Tarte key='Tarte' />],
+  tartetatin:[<Hamburger key='Hamburger' />],
+  
   repasvegetalien: [<Vegetalien key='Vegetalien' />],
   repasvegetarien: [<Boeuf key='Boeuf' />],
   repasavecduboeuf: [
