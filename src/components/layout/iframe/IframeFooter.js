@@ -36,10 +36,8 @@ const Logos = styled(MagicLink)`
 export default function IframeFooter(props) {
   return (
     <Wrapper>
-      <StyledMagicLink to={`/${props.url}`}>
-        Voir la version détaillée
-        <br />
-        (et les sources)
+      <StyledMagicLink to={`https://github.com/afoodi-co/impactco2`}>
+        Voir les sources
       </StyledMagicLink>
       <Logos
         to='https://datagir.ademe.fr/'
