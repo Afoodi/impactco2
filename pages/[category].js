@@ -20,7 +20,7 @@ export default function CategoryPage(props) {
   )
 }
 
-const independantCategories = [1, 2, 4, 9, 10]
+const independantCategories = [1, 2, 4, 9, 10, 12, 13, 14]
 
 export async function getStaticPaths() {
   return {
