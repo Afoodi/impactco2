@@ -19,7 +19,7 @@ export default function Morue() {
       </Title>
       <Equivalents>
         <Equivalent size={[7, 6, 8]}>
-          <Emojis>🐠</Emojis>
+          <Emojis>🐟</Emojis>
           <Label>
             1 brandade
             <br />
