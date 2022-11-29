@@ -22,13 +22,16 @@ const Number = styled.span`
   font-weight: 700;
 
   ${(props) => props.theme.mq.small} {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 `
 const Unit = styled.span`
   cursor: pointer;
   font-size: 0.875rem;
   white-space: nowrap;
+  ${(props) => props.theme.mq.small} {
+    font-size: 0.7rem;
+  }
 `
 export default function Value(props) {
   return (
@@ -39,8 +42,8 @@ export default function Value(props) {
       <Number>{formatNumber(props.value)}</Number>
       {props.max > 1000 || props.value == "marge brut" ? (
           <Unit>
-            {' '}
-            % de marge brut 
+            {''}
+            % {props.value < 72 ? '' : 'de marge brut'}
           </Unit>
         ) : (
           <Unit>
