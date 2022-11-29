@@ -36,7 +36,7 @@ export default function Item(props) {
   )
   const ecoBarSize = (
     props.value == 0 ? 0.8 :
-      0.6 ** 3 / props.value + (props.value < 0.3 ? -0.10 : 0.08)
+      0.6 ** 3 / props.value + (props.value < 0.3 ? -0.08 : 0.08)
   )
   const colours = { 
     "blue": "#4EB3EA",
