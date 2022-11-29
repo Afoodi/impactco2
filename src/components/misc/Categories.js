@@ -19,11 +19,14 @@ const Text = styled.p`
 const List = styled.div`
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   gap: 1.5rem;
 
   ${(props) => props.theme.mq.medium} {
     gap: 0.75rem;
+    flex-direction: row;
   }
 `
 export default function Categories(props) {
