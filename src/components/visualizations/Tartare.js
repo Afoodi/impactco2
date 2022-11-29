@@ -45,21 +45,6 @@ export default function Tartare() {
           </Label>
         </Equivalent>
       </Equivalents>
-      <Small>
-        <br />
-        1 tartare
-        <br />
-        de boeuf
-        <br />=<br />
-        6 avocado
-        <br />
-        toast
-        <br />=<br />        
-        12 soupes à
-        <br />
-        l'oignon
-        <br />
-      </Small>
       <CenterLink to='/iframes/menu'>Voir toutes les assiettes</CenterLink>
     </>
   )

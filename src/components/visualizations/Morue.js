@@ -45,21 +45,6 @@ export default function Morue() {
           </Label>
         </Equivalent>
       </Equivalents>
-      <Small>
-        <br />
-        1 tartare
-        <br />
-        thon rouge
-        <br />=<br />
-        2 salades
-        <br />
-        tomates mozzarella
-        <br />=<br />        
-        3 beignets
-        <br />
-        de legumes
-        <br />
-      </Small>
       <CenterLink to='/iframes/menu'>Voir toutes les assiettes</CenterLink>
     </>
   )

@@ -45,21 +45,6 @@ export default function Thon() {
           </Label>
         </Equivalent>
       </Equivalents>
-      <Small>
-        <br />
-        1 cheese
-        <br />
-        cake
-        <br />=<br />
-        2 tartes
-        <br />
-        aux fraises
-        <br />=<br />        
-        3 îles
-        <br />
-        floattantes
-        <br />
-      </Small>
       <CenterLink to='/iframes/menu'>Voir toutes les assiettes</CenterLink>
     </>
   )

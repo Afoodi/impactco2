@@ -45,21 +45,6 @@ export default function Hamburger() {
           </Label>
         </Equivalent>
       </Equivalents>
-      <Small>
-        <br />
-        1 hamburger
-        <br />
-        avec frites
-        <br />=<br />
-        4 filets
-        <br />
-        de porc
-        <br />=<br />        
-        8 tartes
-        <br />
-        tatins
-        <br />
-      </Small>
       <CenterLink to='/iframes/menu'>Voir toutes les assiettes</CenterLink>
     </>
   )
