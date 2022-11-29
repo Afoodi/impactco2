@@ -60,7 +60,7 @@ export default function Tartare() {
         l'oignon
         <br />
       </Small>
-      <CenterLink to='/entrees'>Voir tous les entrées</CenterLink>
+      <CenterLink to='/iframes/menu'>Voir toutes les assiettes</CenterLink>
     </>
   )
 }
