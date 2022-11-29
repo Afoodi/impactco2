@@ -6,7 +6,7 @@ import Tiles from 'components/misc/Tiles'
 export default function tuiles() {
   return (
     <Iframe>
-      <Tiles />
+      <Tiles iframe/>
     </Iframe>
   )
 }
