@@ -149,7 +149,7 @@
     "title": "Découvrez l'impact sur le climat <br>des usages numériques",
     "description": "Mesurez facilement l'empreinte carbone des mails, du streaming ou de la visioconférence & comparez l'impact de ces usages à celui de la construction de vos appareils",
     "divider": 1,
-    "display": true,
+    "display": false,
     "unit": "",
     "include": "",
     "list": true,
