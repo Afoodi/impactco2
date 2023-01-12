@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 
   svg {
     display: block;
-    width: 3.5rem;
+    width: 2.5rem;
     height: auto;
 
     path {

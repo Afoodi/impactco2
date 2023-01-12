@@ -7,18 +7,17 @@ const Wrapper = styled(MagicLink)`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: ${(props) => props.theme.colors.main};
   border: none;
   border-radius: 50%;
   cursor: pointer;
 `
 const Svg = styled.svg`
-  width: 2.2rem !important;
 
   ${(props) => props.theme.mq.small} {
-    width: 1.7rem;
+    width: 1.0rem;
   }
   path {
     fill: ${(props) => props.theme.colors.background}!important;
