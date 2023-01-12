@@ -26,7 +26,6 @@ export default function Bottom(props) {
         <ButtonLink onClick={() => setCo2e(true)}>
           CO<sub>2</sub>e
         </ButtonLink>{' '}
-        émis {props.category?.include}
       </Disclaimer>
       <Button
         to={props.iframe ? '/iframes/menu' : '/categories'}
